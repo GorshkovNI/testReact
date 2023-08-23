@@ -3,16 +3,25 @@
     height: 240px;
     overflow-y: auto;
     border: 1px solid black;
+    box-sizing: border-box;
 }
 
 .list{
+    padding: 0;
     position: relative;
     margin: 0;
 }
 
 .itemList{
     position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid rgb(197, 195, 114);
     height: 60px;
     line-height: 60px;
     list-style-type: none;
+    font-size: 20px;
 }
